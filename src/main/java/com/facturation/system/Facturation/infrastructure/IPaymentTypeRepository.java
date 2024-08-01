@@ -4,5 +4,5 @@ import com.facturation.system.Facturation.domain.PaymentType;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface IPaymentTypeRepository extends IGenericRepository<PaymentType,Integer> {
+public interface IPaymentTypeRepository extends IGenericRepository<PaymentType, Integer> {
 }

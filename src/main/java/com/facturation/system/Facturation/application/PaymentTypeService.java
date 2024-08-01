@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class PaymentTypeService extends GenericService<PaymentType, Integer> implements IPaymentTypeService{
-    
+
     private IPaymentTypeRepository _repository;
 
     public PaymentTypeService(IPaymentTypeRepository _repository){
