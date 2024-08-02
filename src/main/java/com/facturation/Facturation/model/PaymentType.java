@@ -1,4 +1,4 @@
-package com.facturation.system.Facturation.domain;
+package com.Facturation.Facturation.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -9,9 +9,9 @@ import java.io.Serializable;
 
 @Setter
 @Getter
-@Entity
-@Table(name = "configurations")
-public class Configuration implements Serializable {
+@Entity(name = "payment_types")
+public class PaymentType implements Serializable {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
@@ -19,6 +19,7 @@ public class Configuration implements Serializable {
 
     @Column(name = "name")
     private String name;
+
+    @Column(name = "description")
+    private String description;
 }
-
-
