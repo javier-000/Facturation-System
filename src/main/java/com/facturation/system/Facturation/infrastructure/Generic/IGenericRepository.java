@@ -1,4 +1,4 @@
-package com.facturation.system.Facturation.infrastructure;
+package com.facturation.system.Facturation.infrastructure.Generic;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;

@@ -1,5 +1,5 @@
 package com.facturation.system.Facturation.api.Generic;
-import com.facturation.system.Facturation.application.IGenericService;
+import com.facturation.system.Facturation.application.Generic.IGenericService;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;

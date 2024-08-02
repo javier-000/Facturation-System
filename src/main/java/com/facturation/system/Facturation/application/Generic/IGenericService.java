@@ -1,4 +1,4 @@
-package com.facturation.system.Facturation.application;
+package com.facturation.system.Facturation.application.Generic;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

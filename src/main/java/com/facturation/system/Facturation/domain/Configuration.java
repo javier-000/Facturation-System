@@ -2,12 +2,14 @@ package com.facturation.system.Facturation.domain;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.io.Serializable;
 
-@Data
-@Entity
-@Table(name = "payment_types")
+@Setter
+@Getter
+@Entity(name = "configurations")
 public class Configuration implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -1,6 +1,6 @@
-package com.facturation.system.Facturation.application;
+package com.facturation.system.Facturation.application.Generic;
 
-import com.facturation.system.Facturation.infrastructure.IGenericRepository;
+import com.facturation.system.Facturation.infrastructure.Generic.IGenericRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

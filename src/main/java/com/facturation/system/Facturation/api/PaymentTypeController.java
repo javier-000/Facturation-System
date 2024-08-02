@@ -1,9 +1,8 @@
 package com.facturation.system.Facturation.api;
 
 import com.facturation.system.Facturation.api.Generic.GenericController;
-import com.facturation.system.Facturation.application.IGenericService;
+import com.facturation.system.Facturation.application.Generic.IGenericService;
 import com.facturation.system.Facturation.application.IPaymentTypeService;
-import com.facturation.system.Facturation.application.PaymentTypeService;
 import com.facturation.system.Facturation.domain.PaymentType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
