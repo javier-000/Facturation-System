@@ -1,4 +1,4 @@
-package com.facturation.system.Facturation.api.Generic;
+package com.Facturation.Facturation.api.Generic;
 
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;

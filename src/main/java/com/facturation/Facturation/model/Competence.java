@@ -8,15 +8,15 @@ import jakarta.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
 
-@Setter
 @Getter
+@Setter
 @Entity
-public class PaymentType {
+
+public class Competence {
     @Id
-    @Column(name="payment_type_id")
+    @Column(name = "competence_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer paymentTypeId;
-    private String type;
+    private Integer competenceId;
+    private String name;
     private String description;
-    
 }

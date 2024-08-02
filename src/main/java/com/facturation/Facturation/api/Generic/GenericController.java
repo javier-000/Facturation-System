@@ -1,10 +1,16 @@
-package com.facturation.system.Facturation.api.Generic;
-import com.facturation.system.Facturation.application.Generic.IGenericService;
+package com.Facturation.Facturation.api.Generic;
+
+
+import com.Facturation.Facturation.application.Generic.IGenericService;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+
 import java.io.Serializable;
 import java.util.List;
 
@@ -89,3 +95,16 @@ public abstract class GenericController<T, ID extends Serializable> implements I
         }
     }
 }
+
+
+
+
+/* if(bindingResult.hasErrors()){
+         Map<String, String> e = new HashMap<>();
+        bindingResult.getFieldErrors().forEach(er ->{
+        e.put(er.getField(),
+        "".concat(er.getField()).concat(" ").concat(er.getDefaultMessage()));
+
+        });
+        return new ResponseEntity<>(e, HttpStatus.BAD_REQUEST);
+        }*/
