@@ -1,6 +1,7 @@
 package ista.app.facturacion.Api;
 
 import ista.app.facturacion.Domain.ProveedorModel;
+import ista.app.facturacion.Infrastructure.ProductoRepository;
 import ista.app.facturacion.Infrastructure.ProveedorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -13,33 +14,37 @@ import java.util.List;
 @RequestMapping("api/v1/proveedor")
 public class ProveedorController {
 
+    private ProveedorRepository _repository;
+
     @Autowired
-    private ProveedorRepository proveedorRepository;
+    public ProveedorController(ProveedorRepository repository){
+        this._repository = repository;
+    }
 
     @PostMapping("save")
     public ProveedorModel postFactura(@RequestBody ProveedorModel clasificacion) {
-        return proveedorRepository.save(clasificacion);
+        return _repository.save(clasificacion);
     }
 
     @GetMapping("/get-all")
     private List<ProveedorModel> getAllFacturas() {
-        return proveedorRepository.findAll();
+        return _repository.findAll();
     }
 
     @GetMapping("/get-by-id/{id}")
     private ResponseEntity<ProveedorModel> getById(@PathVariable long id) {
-        ProveedorModel  list = proveedorRepository.findById(id).get();
+        ProveedorModel  list = _repository.findById(id).get();
         return ResponseEntity.ok(list);
     }
 
     @DeleteMapping("/delete-by-id/{id}")
     private  ResponseEntity<Boolean> deleteById(@PathVariable long id) {
-        proveedorRepository.deleteById(id);
+        _repository.deleteById(id);
         return ResponseEntity.ok(true);
     }
 
     @PutMapping("update")
     public ProveedorModel update(@RequestBody ProveedorModel clasificacion) {
-        return proveedorRepository.save(clasificacion);
+        return _repository.save(clasificacion);
     }
 }

@@ -5,20 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ee1436b-2555-4868-8aae-8dbc058e7502" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/ClasificacionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/ClasificacionController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/CompetenciaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/CompetenciaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/FacturaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/FacturaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/ItemFacturaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/ItemFacturaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/PersonaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/PersonaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/ProductoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/ProveedorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/ProveedorController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/RolCompetenciaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/RolCompetenciaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/RolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/RolController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/TipoPagoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/TipoPagoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/UsuarioRolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/UsuarioRolController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +33,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2kOBeGpanOykVfab96EXr0UbUd1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -60,10 +59,17 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "081580ab1f56f6891fb4c6f5737d9c88"
+    "spring.configuration.checksum": "4a91cd4f06a03b33aacba3adb2219f6b"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.FacturacionApplication">
+    <configuration name="FacturacionApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Facturation-System" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ista.app.facturacion.FacturacionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FacturacionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
@@ -90,6 +96,7 @@
       <updated>1723144847449</updated>
       <workItem from="1723144857002" duration="5895000" />
       <workItem from="1723155053798" duration="665000" />
+      <workItem from="1723159639739" duration="639000" />
     </task>
     <servers />
   </component>
