@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ee1436b-2555-4868-8aae-8dbc058e7502" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Controllers/PersonaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Controllers/PersonaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Controllers/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Models/PersonaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Models/PersonaModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Models/UsuarioModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Models/UsuarioModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Repositories/PersonaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Repositories/PersonaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Repositories/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Repositories/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Config/RespuestaGenerica.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Controllers/ClasificacionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Controllers/CompetenciaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Controllers/FacturaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Controllers/ItemFacturaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Controllers/PersonaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Controllers/ProductoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Controllers/ProveedorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Controllers/RolCompetenciaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Controllers/RolController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Controllers/TipoPagoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Controllers/UsuarioController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Controllers/UsuarioRolController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/FacturacionApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Models/ClasificacionModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Models/CompetenciaModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Models/FacturaModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Models/ItemFacturaModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Models/PersonaModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Models/ProductoModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Models/ProveedorModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Models/RolCompetenciaModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Models/RolModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Models/TipoPagoModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Models/UsuarioModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Models/UsuarioRolModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Repositories/ClasificacionRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Repositories/CompetenciaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Repositories/FacturaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Repositories/ItemFacturaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Repositories/PersonaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Repositories/ProductoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Repositories/ProveedorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Repositories/RolCompetenciaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Repositories/RolRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Repositories/TipoPagoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Repositories/UsuarioRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ista/app/facturacion/Repositories/UsuarioRolRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/facturacion.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2kOBeGpanOykVfab96EXr0UbUd1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "081580ab1f56f6891fb4c6f5737d9c88"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="FacturacionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <envs>
+        <env name="SPRING_DATASOURCE_PASSWORD" value="admin123" />
+        <env name="SPRING_DATASOURCE_URL" value="jdbc:postgresql://23.236.50.55:5432/mydatabase" />
+        <env name="SPRING_DATASOURCE_USERNAME" value="admin" />
+      </envs>
+      <module name="facturacion" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ista.app.facturacion.FacturacionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ee1436b-2555-4868-8aae-8dbc058e7502" name="Changes" comment="" />
+      <created>1723144847449</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723144847449</updated>
+      <workItem from="1723144857002" duration="5895000" />
+      <workItem from="1723155053798" duration="665000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
