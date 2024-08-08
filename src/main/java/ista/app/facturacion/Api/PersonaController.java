@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(value = "*", methods = { RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE })
-@RequestMapping("api/Persona")
+@RequestMapping("api/v1/persona")
 public class PersonaController {
     private PersonaRepository _repository;
 

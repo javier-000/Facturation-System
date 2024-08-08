@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(value = "*", methods = { RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE })
-@RequestMapping("api/Competencia")
+@RequestMapping("api/v1/competencia")
 public class CompetenciaController {
     @Autowired
     private CompetenciaRepository competenciaRepository;

@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(value = "*", methods = { RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE })
-@RequestMapping("api/RolCompetencia")
+@RequestMapping("api/v1/rol-competencia")
 public class RolCompetenciaController {
 
 

@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(value = "*", methods = { RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE })
-@RequestMapping("api/Factura")
+@RequestMapping("api/v1/factura")
 public class FacturaController {
     @Autowired
     private FacturaRepository facturaRepository;

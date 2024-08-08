@@ -10,9 +10,8 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(value = "*", methods = { RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE })
-@RequestMapping("api/Proveedor")
+@RequestMapping("api/v1/proveedor")
 public class ProveedorController {
-
 
     @Autowired
     private ProveedorRepository proveedorRepository;
