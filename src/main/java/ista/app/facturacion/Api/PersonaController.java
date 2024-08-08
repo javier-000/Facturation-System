@@ -11,7 +11,7 @@ import org.springframework.web.server.ResponseStatusException;
 import java.util.List;
 
 @RestController
-@CrossOrigin(value = "*", methods = { RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE })
+@CrossOrigin(value = "*")
 @RequestMapping("api/v1/persona")
 public class PersonaController {
     private PersonaRepository _repository;

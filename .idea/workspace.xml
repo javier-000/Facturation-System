@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ee1436b-2555-4868-8aae-8dbc058e7502" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/ClasificacionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/ClasificacionController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/CompetenciaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/CompetenciaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/FacturaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/FacturaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/ItemFacturaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/ItemFacturaController.java" afterDir="false" />
@@ -19,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/RolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/RolController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/TipoPagoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/TipoPagoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/UsuarioRolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ista/app/facturacion/Api/UsuarioRolController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
